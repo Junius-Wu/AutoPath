@@ -1,0 +1,684 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TCS>
+  <testcase/>
+  <process/>
+  <operation>init_ardupilot()</operation>
+  <input>null</input>
+  <process/>
+  <operation>cout</operation>
+  <input>null</input>
+  <process/>
+  <operation>init()</operation>
+  <input>null</input>
+  <process/>
+  <operation>set_monitoring(uint8_t, uint8_t)</operation>
+  <input>null</input>
+  <process/>
+  <operation>cout</operation>
+  <input>null</input>
+  <process/>
+  <operation>init()</operation>
+  <input>null</input>
+  <process/>
+  <operation>cout</operation>
+  <input>null</input>
+  <process/>
+  <operation>!init_rc_in()</operation>
+  <input>null</input>
+  <process/>
+  <operation>?set_angle(unsigned short)</operation>
+  <input>null</input>
+  <process/>
+  <operation>set_angle(unsigned short)</operation>
+  <input>null</input>
+  <process/>
+  <operation>set_angle(unsigned short)</operation>
+  <input>null</input>
+  <process/>
+  <operation>set_range(unsigned short, unsigned short)</operation>
+  <input>null</input>
+  <process/>
+  <operation>set_type(unsigned char)</operation>
+  <input>null</input>
+  <process/>
+  <operation>set_type(unsigned char)</operation>
+  <input>null</input>
+  <process/>
+  <operation>set_type(unsigned char)</operation>
+  <input>null</input>
+  <process/>
+  <operation>set_default_dead_zone(unsigned short)</operation>
+  <input>null</input>
+  <process/>
+  <operation>set_default_dead_zone(unsigned short)</operation>
+  <input>null</input>
+  <process/>
+  <operation>set_default_dead_zone(unsigned short)</operation>
+  <input>null</input>
+  <process/>
+  <operation>set_default_dead_zone(unsigned short)</operation>
+  <input>null</input>
+  <process/>
+  <operation>!init_rc_out()</operation>
+  <input>null</input>
+  <process/>
+  <operation>?init()</operation>
+  <input>null</input>
+  <process/>
+  <operation>cout</operation>
+  <input>null</input>
+  <process/>
+  <operation>!set_land_complete(bool)</operation>
+  <input>null</input>
+  <process/>
+  <operation>?set_land_complete_maybe(bool)</operation>
+  <input>null</input>
+  <process/>
+  <operation>cout</operation>
+  <input>null</input>
+  <process/>
+  <operation>arm_motors_check()</operation>
+  <input>null</input>
+  <process/>
+  <operation>get_the_control_in()</operation>
+  <input>null</input>
+  <process/>
+  <operation>get_the_control_in()</operation>
+  <input>null</input>
+  <process/>
+  <operation>armed()</operation>
+  <input>null</input>
+  <process/>
+  <operation>!mode_has_manual_throttle(unsigned int)</operation>
+  <input>null</input>
+  <process/>
+  <operation>?reset_arming_counter()</operation>
+  <input/>
+  <process/>
+  <operation>read_radio()</operation>
+  <input>null</input>
+  <process/>
+  <operation>set_has_new_input(bool)</operation>
+  <input>null</input>
+  <process/>
+  <operation>set_last_update_radio_ms(long)</operation>
+  <input/>
+  <process/>
+  <operation>set_pwm(short)</operation>
+  <input/>
+  <process/>
+  <operation>set_pwm(short)</operation>
+  <input/>
+  <process/>
+  <operation>set_pwm(short)</operation>
+  <input/>
+  <process/>
+  <operation>set_pwm(short)</operation>
+  <input/>
+  <process/>
+  <operation>set_pwm(short)</operation>
+  <input/>
+  <process/>
+  <operation>get_failsafe_throttle_enable()</operation>
+  <input/>
+  <process/>
+  <operation>!set_throttle_and_failsafe()</operation>
+  <input/>
+  <process/>
+  <operation>?get_the_pwm()</operation>
+  <input/>
+  <process/>
+  <operation>get_failsafe_throttle_value()</operation>
+  <input/>
+  <process/>
+  <operation>!increase_radio_counter()</operation>
+  <input/>
+  <process/>
+  <operation>?set_failsafe_radio_counter(int)</operation>
+  <input/>
+  <process/>
+  <operation>!set_failsafe_radio(bool)</operation>
+  <input/>
+  <process/>
+  <operation>set_throttle_zero_flag(unsigned int)</operation>
+  <input/>
+  <process/>
+  <operation>get_the_control_in()</operation>
+  <input/>
+  <process/>
+  <operation>!update_throttle_zero(bool)</operation>
+  <input/>
+  <process/>
+  <operation>read_control_switch(unsigned int)</operation>
+  <input>null</input>
+  <process/>
+  <operation>get_switch_position()</operation>
+  <input>null</input>
+  <process/>
+  <operation>!set_control_switch_last_edge_time()</operation>
+  <input/>
+  <process/>
+  <operation>?get_desired_mode()</operation>
+  <input/>
+  <process/>
+  <operation>!?set_mode(char)</operation>
+  <input/>
+  <testcase/>
+  <process/>
+  <operation>init_ardupilot()</operation>
+  <input>null</input>
+  <process/>
+  <operation>cout</operation>
+  <input>null</input>
+  <process/>
+  <operation>init()</operation>
+  <input>null</input>
+  <process/>
+  <operation>set_monitoring(uint8_t, uint8_t)</operation>
+  <input>null</input>
+  <process/>
+  <operation>cout</operation>
+  <input>null</input>
+  <process/>
+  <operation>init()</operation>
+  <input>null</input>
+  <process/>
+  <operation>cout</operation>
+  <input>null</input>
+  <process/>
+  <operation>!init_rc_in()</operation>
+  <input>null</input>
+  <process/>
+  <operation>?set_angle(unsigned short)</operation>
+  <input>null</input>
+  <process/>
+  <operation>set_angle(unsigned short)</operation>
+  <input>null</input>
+  <process/>
+  <operation>set_angle(unsigned short)</operation>
+  <input>null</input>
+  <process/>
+  <operation>set_range(unsigned short, unsigned short)</operation>
+  <input>null</input>
+  <process/>
+  <operation>set_type(unsigned char)</operation>
+  <input>null</input>
+  <process/>
+  <operation>set_type(unsigned char)</operation>
+  <input>null</input>
+  <process/>
+  <operation>set_type(unsigned char)</operation>
+  <input>null</input>
+  <process/>
+  <operation>set_default_dead_zone(unsigned short)</operation>
+  <input>null</input>
+  <process/>
+  <operation>set_default_dead_zone(unsigned short)</operation>
+  <input>null</input>
+  <process/>
+  <operation>set_default_dead_zone(unsigned short)</operation>
+  <input>null</input>
+  <process/>
+  <operation>set_default_dead_zone(unsigned short)</operation>
+  <input>null</input>
+  <process/>
+  <operation>!init_rc_out()</operation>
+  <input>null</input>
+  <process/>
+  <operation>?init()</operation>
+  <input>null</input>
+  <process/>
+  <operation>cout</operation>
+  <input>null</input>
+  <process/>
+  <operation>!set_land_complete(bool)</operation>
+  <input>null</input>
+  <process/>
+  <operation>?set_land_complete_maybe(bool)</operation>
+  <input>null</input>
+  <process/>
+  <operation>cout</operation>
+  <input>null</input>
+  <process/>
+  <operation>arm_motors_check()</operation>
+  <input>null</input>
+  <process/>
+  <operation>get_the_control_in()</operation>
+  <input>null</input>
+  <process/>
+  <operation>get_the_control_in()</operation>
+  <input>null</input>
+  <process/>
+  <operation>armed()</operation>
+  <input>null</input>
+  <process/>
+  <operation>!mode_has_manual_throttle(unsigned int)</operation>
+  <input>null</input>
+  <process/>
+  <operation>?reset_arming_counter()</operation>
+  <input/>
+  <process/>
+  <operation>read_radio()</operation>
+  <input>null</input>
+  <process/>
+  <operation>set_has_new_input(bool)</operation>
+  <input>null</input>
+  <process/>
+  <operation>set_last_update_radio_ms(long)</operation>
+  <input/>
+  <process/>
+  <operation>set_pwm(short)</operation>
+  <input/>
+  <process/>
+  <operation>set_pwm(short)</operation>
+  <input/>
+  <process/>
+  <operation>set_pwm(short)</operation>
+  <input/>
+  <process/>
+  <operation>set_pwm(short)</operation>
+  <input/>
+  <process/>
+  <operation>set_pwm(short)</operation>
+  <input/>
+  <process/>
+  <operation>get_failsafe_throttle_enable()</operation>
+  <input/>
+  <process/>
+  <operation>!set_throttle_and_failsafe()</operation>
+  <input/>
+  <process/>
+  <operation>?get_the_pwm()</operation>
+  <input/>
+  <process/>
+  <operation>get_failsafe_throttle_value()</operation>
+  <input/>
+  <process/>
+  <operation>!increase_radio_counter()</operation>
+  <input/>
+  <process/>
+  <operation>?set_failsafe_radio_counter(int)</operation>
+  <input/>
+  <process/>
+  <operation>!set_failsafe_radio(bool)</operation>
+  <input/>
+  <process/>
+  <operation>set_throttle_zero_flag(unsigned int)</operation>
+  <input/>
+  <process/>
+  <operation>get_the_control_in()</operation>
+  <input/>
+  <process/>
+  <operation>?update_throttle_zero(bool)</operation>
+  <input/>
+  <testcase/>
+  <process/>
+  <operation>init_ardupilot()</operation>
+  <input>null</input>
+  <process/>
+  <operation>cout</operation>
+  <input>null</input>
+  <process/>
+  <operation>init()</operation>
+  <input>null</input>
+  <process/>
+  <operation>set_monitoring(uint8_t, uint8_t)</operation>
+  <input>null</input>
+  <process/>
+  <operation>cout</operation>
+  <input>null</input>
+  <process/>
+  <operation>init()</operation>
+  <input>null</input>
+  <process/>
+  <operation>cout</operation>
+  <input>null</input>
+  <process/>
+  <operation>!init_rc_in()</operation>
+  <input>null</input>
+  <process/>
+  <operation>?set_angle(unsigned short)</operation>
+  <input>null</input>
+  <process/>
+  <operation>set_angle(unsigned short)</operation>
+  <input>null</input>
+  <process/>
+  <operation>set_angle(unsigned short)</operation>
+  <input>null</input>
+  <process/>
+  <operation>set_range(unsigned short, unsigned short)</operation>
+  <input>null</input>
+  <process/>
+  <operation>set_type(unsigned char)</operation>
+  <input>null</input>
+  <process/>
+  <operation>set_type(unsigned char)</operation>
+  <input>null</input>
+  <process/>
+  <operation>set_type(unsigned char)</operation>
+  <input>null</input>
+  <process/>
+  <operation>set_default_dead_zone(unsigned short)</operation>
+  <input>null</input>
+  <process/>
+  <operation>set_default_dead_zone(unsigned short)</operation>
+  <input>null</input>
+  <process/>
+  <operation>set_default_dead_zone(unsigned short)</operation>
+  <input>null</input>
+  <process/>
+  <operation>set_default_dead_zone(unsigned short)</operation>
+  <input>null</input>
+  <process/>
+  <operation>!init_rc_out()</operation>
+  <input>null</input>
+  <process/>
+  <operation>?init()</operation>
+  <input>null</input>
+  <process/>
+  <operation>cout</operation>
+  <input>null</input>
+  <process/>
+  <operation>!set_land_complete(bool)</operation>
+  <input>null</input>
+  <process/>
+  <operation>?set_land_complete_maybe(bool)</operation>
+  <input>null</input>
+  <process/>
+  <operation>cout</operation>
+  <input>null</input>
+  <process/>
+  <operation>arm_motors_check()</operation>
+  <input>null</input>
+  <process/>
+  <operation>get_the_control_in()</operation>
+  <input>null</input>
+  <process/>
+  <operation>get_the_control_in()</operation>
+  <input>null</input>
+  <process/>
+  <operation>armed()</operation>
+  <input>null</input>
+  <process/>
+  <operation>!mode_has_manual_throttle(unsigned int)</operation>
+  <input>null</input>
+  <process/>
+  <operation>?reset_arming_counter()</operation>
+  <input/>
+  <process/>
+  <operation>read_radio()</operation>
+  <input>null</input>
+  <process/>
+  <operation>set_has_new_input(bool)</operation>
+  <input>null</input>
+  <process/>
+  <operation>set_last_update_radio_ms(long)</operation>
+  <input/>
+  <process/>
+  <operation>set_pwm(short)</operation>
+  <input/>
+  <process/>
+  <operation>set_pwm(short)</operation>
+  <input/>
+  <process/>
+  <operation>set_pwm(short)</operation>
+  <input/>
+  <process/>
+  <operation>set_pwm(short)</operation>
+  <input/>
+  <process/>
+  <operation>set_pwm(short)</operation>
+  <input/>
+  <process/>
+  <operation>get_failsafe_throttle_enable()</operation>
+  <input/>
+  <process/>
+  <operation>!set_throttle_and_failsafe()</operation>
+  <input/>
+  <process/>
+  <operation>?get_the_pwm()</operation>
+  <input/>
+  <process/>
+  <operation>get_failsafe_throttle_value()</operation>
+  <input/>
+  <process/>
+  <operation>!decrease_radio_counter()</operation>
+  <input/>
+  <process/>
+  <operation>?set_failsafe_radio_counter(int)</operation>
+  <input/>
+  <process/>
+  <operation>!set_failsafe_radio(bool)</operation>
+  <input/>
+  <testcase/>
+  <process/>
+  <operation>init_ardupilot()</operation>
+  <input>null</input>
+  <process/>
+  <operation>cout</operation>
+  <input>null</input>
+  <process/>
+  <operation>init()</operation>
+  <input>null</input>
+  <process/>
+  <operation>set_monitoring(uint8_t, uint8_t)</operation>
+  <input>null</input>
+  <process/>
+  <operation>cout</operation>
+  <input>null</input>
+  <process/>
+  <operation>init()</operation>
+  <input>null</input>
+  <process/>
+  <operation>cout</operation>
+  <input>null</input>
+  <process/>
+  <operation>!init_rc_in()</operation>
+  <input>null</input>
+  <process/>
+  <operation>?set_angle(unsigned short)</operation>
+  <input>null</input>
+  <process/>
+  <operation>set_angle(unsigned short)</operation>
+  <input>null</input>
+  <process/>
+  <operation>set_angle(unsigned short)</operation>
+  <input>null</input>
+  <process/>
+  <operation>set_range(unsigned short, unsigned short)</operation>
+  <input>null</input>
+  <process/>
+  <operation>set_type(unsigned char)</operation>
+  <input>null</input>
+  <process/>
+  <operation>set_type(unsigned char)</operation>
+  <input>null</input>
+  <process/>
+  <operation>set_type(unsigned char)</operation>
+  <input>null</input>
+  <process/>
+  <operation>set_default_dead_zone(unsigned short)</operation>
+  <input>null</input>
+  <process/>
+  <operation>set_default_dead_zone(unsigned short)</operation>
+  <input>null</input>
+  <process/>
+  <operation>set_default_dead_zone(unsigned short)</operation>
+  <input>null</input>
+  <process/>
+  <operation>set_default_dead_zone(unsigned short)</operation>
+  <input>null</input>
+  <process/>
+  <operation>!init_rc_out()</operation>
+  <input>null</input>
+  <process/>
+  <operation>?init()</operation>
+  <input>null</input>
+  <process/>
+  <operation>cout</operation>
+  <input>null</input>
+  <process/>
+  <operation>!set_land_complete(bool)</operation>
+  <input>null</input>
+  <process/>
+  <operation>?set_land_complete_maybe(bool)</operation>
+  <input>null</input>
+  <process/>
+  <operation>cout</operation>
+  <input>null</input>
+  <process/>
+  <operation>arm_motors_check()</operation>
+  <input>null</input>
+  <process/>
+  <operation>get_the_control_in()</operation>
+  <input>null</input>
+  <process/>
+  <operation>get_the_control_in()</operation>
+  <input>null</input>
+  <process/>
+  <operation>armed()</operation>
+  <input>null</input>
+  <process/>
+  <operation>!mode_has_manual_throttle(unsigned int)</operation>
+  <input>null</input>
+  <process/>
+  <operation>?reset_arming_counter()</operation>
+  <input/>
+  <process/>
+  <operation>read_radio()</operation>
+  <input>null</input>
+  <process/>
+  <operation>set_has_new_input(bool)</operation>
+  <input>null</input>
+  <process/>
+  <operation>get_last_update_radio_elapsed(long)</operation>
+  <input/>
+  <process/>
+  <operation>get_failsafe_throttle_enable()</operation>
+  <input/>
+  <process/>
+  <operation>cout</operation>
+  <input/>
+  <process/>
+  <operation>!set_failsafe_radio(bool)</operation>
+  <input/>
+  <testcase/>
+  <process/>
+  <operation>init_ardupilot()</operation>
+  <input>null</input>
+  <process/>
+  <operation>cout</operation>
+  <input>null</input>
+  <process/>
+  <operation>init()</operation>
+  <input>null</input>
+  <process/>
+  <operation>set_monitoring(uint8_t, uint8_t)</operation>
+  <input>null</input>
+  <process/>
+  <operation>cout</operation>
+  <input>null</input>
+  <process/>
+  <operation>init()</operation>
+  <input>null</input>
+  <process/>
+  <operation>cout</operation>
+  <input>null</input>
+  <process/>
+  <operation>!init_rc_in()</operation>
+  <input>null</input>
+  <process/>
+  <operation>?set_angle(unsigned short)</operation>
+  <input>null</input>
+  <process/>
+  <operation>set_angle(unsigned short)</operation>
+  <input>null</input>
+  <process/>
+  <operation>set_angle(unsigned short)</operation>
+  <input>null</input>
+  <process/>
+  <operation>set_range(unsigned short, unsigned short)</operation>
+  <input>null</input>
+  <process/>
+  <operation>set_type(unsigned char)</operation>
+  <input>null</input>
+  <process/>
+  <operation>set_type(unsigned char)</operation>
+  <input>null</input>
+  <process/>
+  <operation>set_type(unsigned char)</operation>
+  <input>null</input>
+  <process/>
+  <operation>set_default_dead_zone(unsigned short)</operation>
+  <input>null</input>
+  <process/>
+  <operation>set_default_dead_zone(unsigned short)</operation>
+  <input>null</input>
+  <process/>
+  <operation>set_default_dead_zone(unsigned short)</operation>
+  <input>null</input>
+  <process/>
+  <operation>set_default_dead_zone(unsigned short)</operation>
+  <input>null</input>
+  <process/>
+  <operation>!init_rc_out()</operation>
+  <input>null</input>
+  <process/>
+  <operation>?init()</operation>
+  <input>null</input>
+  <process/>
+  <operation>cout</operation>
+  <input>null</input>
+  <process/>
+  <operation>!set_land_complete(bool)</operation>
+  <input>null</input>
+  <process/>
+  <operation>?set_land_complete_maybe(bool)</operation>
+  <input>null</input>
+  <process/>
+  <operation>cout</operation>
+  <input>null</input>
+  <process/>
+  <operation>arm_motors_check()</operation>
+  <input>null</input>
+  <process/>
+  <operation>get_the_control_in()</operation>
+  <input>null</input>
+  <process/>
+  <operation>get_the_control_in()</operation>
+  <input>null</input>
+  <process/>
+  <operation>armed()</operation>
+  <input>null</input>
+  <process/>
+  <operation>!mode_has_manual_throttle(unsigned int)</operation>
+  <input>null</input>
+  <process/>
+  <operation>!increase_arming_counter()</operation>
+  <input/>
+  <process/>
+  <operation>?init_arm_motors(bool)</operation>
+  <input/>
+  <process/>
+  <operation>armed(bool)</operation>
+  <input/>
+  <process/>
+  <operation>!reset_arming_counter()</operation>
+  <input/>
+  <process/>
+  <operation>?reset_arming_counter()</operation>
+  <input/>
+  <process/>
+  <operation>?increase_arming_counter()</operation>
+  <input/>
+  <process/>
+  <operation>!init_disarm_motors()</operation>
+  <input/>
+  <process/>
+  <operation>?armed(bool)</operation>
+  <input/>
+  <process/>
+  <operation>!reset_arming_counter()</operation>
+  <input/>
+</TCS>

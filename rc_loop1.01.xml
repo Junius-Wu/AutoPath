@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nta><declaration>// Place global declarations here.</declaration><template><name x="30" y="30">template_</name><declaration/><location id="loc_id_init" x="30" y="30" timeDuration="null" final="false"><name x="30" y="30">scheduler:_init
+time:null</name></location><location id="loc_id_C21A3BEE_7107_43f1_8A44_D40DE55E2A58" x="30" y="30" timeDuration="null" final="false"><name x="30" y="30">copter:rc_loop()
+time:null</name></location><location id="loc_id_F0E4B1BA_E87A_4d13_A5C1_658A4E577486" x="30" y="30" timeDuration="null" final="false"><name x="30" y="30">copter:read_radio()
+time:null</name></location><location id="loc_id_D35E08A3_DCF0_46b8_8BE5_2E06393C2968_8" x="30" y="30" timeDuration="null" final="false"><name x="30" y="30">copter:millis()
+time:null</name></location><location id="loc_id_CF74505B_4978_4ced_BADB_17F68009F2AC_8" x="30" y="30" timeDuration="null" final="false"><name x="30" y="30">channel_roll:set_pwm(short)
+time:null</name></location><location id="loc_id_BB0BA59E_33B9_4f4d_BAB5_C57D1A2CA044_8" x="30" y="30" timeDuration="null" final="false"><name x="30" y="30">channel_pitch:set_pwm(short)
+time:null</name></location><location id="loc_id_41F2D344_CCE6_4e2a_A417_9245889CE58C_8" x="30" y="30" timeDuration="null" final="false"><name x="30" y="30">channel_throttle:set_pwm(short)
+time:null</name></location><location id="loc_id_07C0CE50_BDA0_4d06_BCEE_2A8A209027AE_8" x="30" y="30" timeDuration="null" final="false"><name x="30" y="30">channel_yaw:set_pwm(short)
+time:null</name></location><location id="loc_id_C19A57F6_1F39_4096_A9DE_F46E960592E3_8" x="30" y="30" timeDuration="null" final="false"><name x="30" y="30">copter:set_throttle_and_failsafe(unsigned short)
+time:null</name></location><location id="loc_id_3CAFCD0B_5722_4243_86A5_7DFA0FC23310_8" x="30" y="30" timeDuration="null" final="false"><name x="30" y="30">channel_throttle:set_pwm(short)
+time:null</name></location><location id="loc_id_1203661F_1677_4d8b_8AA2_9E9C655CE0E3_8" x="30" y="30" timeDuration="null" final="false"><name x="30" y="30">motors:armed()
+time:null</name></location><location id="loc_id_9C550A10_41A4_4271_B814_51461C750C52_8" x="30" y="30" timeDuration="null" final="false"><name x="30" y="30">channel_throttle:set_pwm(short)
+time:null</name></location><location id="loc_id_B5235FC3_93F5_4322_A212_B88A808DF14F_8" x="30" y="30" timeDuration="null" final="false"><name x="30" y="30">copter:set_failsafe_radio(bool)
+time:null</name></location><location id="loc_id_EDD94D18_9992_4dd8_9814_F3EAB6AD9142_8" x="30" y="30" timeDuration="null" final="false"><name x="30" y="30">channel_throttle:set_pwm(short)
+time:null</name></location><location id="loc_id_E387BBB4_6023_4d05_B5F2_5170D968C0D0_8" x="30" y="30" timeDuration="null" final="false"><name x="30" y="30">copter:set_failsafe_radio(bool)
+time:null</name></location><location id="loc_id_9B309197_6A2A_4b2b_ACBC_0F2746F6D5B1_8" x="30" y="30" timeDuration="null" final="false"><name x="30" y="30">channel_throttle:set_pwm(short)
+time:null</name></location><location id="loc_id_CD3C052F_C23E_44d2_8A46_0290B5D1A022_8" x="30" y="30" timeDuration="null" final="false"><name x="30" y="30">copter:set_throttle_zero_flag(short)
+time:null</name></location><location id="loc_id_767F0F56_D485_47de_91D1_97E1F4CA582E_8" x="30" y="30" timeDuration="null" final="false"><name x="30" y="30">motors:armed()
+time:null</name></location><location id="loc_id_25EE2114_0AE9_470f_B9CD_1AC41438A214_8" x="30" y="30" timeDuration="null" final="false"><name x="30" y="30">copter:set_failsafe_radio(bool)
+time:null</name></location><location id="loc_id_6FD4FD41_B5A4_44ff_B43C_1DAFEC2DDDED" x="30" y="30" timeDuration="null" final="false"><name x="30" y="30">copter:read_control_switch()
+time:null</name></location><location id="loc_id_2A86A34F_F179_4b80_85DB_8DCE35380056" x="30" y="30" timeDuration="null" final="true"><name x="30" y="30">copter:millis()
+time:null</name></location><location id="loc_id_A73EE02C_7A7A_424e_90AC_0A2B1945A601" x="30" y="30" timeDuration="null" final="true"><name x="30" y="30">copter:set_mode(unsigned char)
+time:null</name></location><init ref="loc_id_init"/><transition id="tran_id_init_C21A3BEE_7107_43f1_8A44_D40DE55E2A58" timeDuration="t&lt;=130" name="rc_loop()" receiveOrSend="" type="null" condition="null" in="null" out="null" use="null" def="null" typeId="null" RESET="null"><source ref="loc_id_init"/><target ref="loc_id_C21A3BEE_7107_43f1_8A44_D40DE55E2A58"/><label kind="synchronisation" x="30" y="30">
+#name:rc_loop()
+#receiveOrSend:
+#typeAndCondition:null
+#time:t&lt;=130
+#in:null
+#out:null</label></transition><transition id="tran_id_C21A3BEE_7107_43f1_8A44_D40DE55E2A58_F0E4B1BA_E87A_4d13_A5C1_658A4E577486" timeDuration="null" name="read_radio()" receiveOrSend="!" type="null" condition="null" in="null" out="null" use="null" def="null" typeId="null" RESET="null"><source ref="loc_id_C21A3BEE_7107_43f1_8A44_D40DE55E2A58"/><target ref="loc_id_F0E4B1BA_E87A_4d13_A5C1_658A4E577486"/><label kind="synchronisation" x="30" y="30">
+#name:read_radio()
+#receiveOrSend:!
+#typeAndCondition:null
+#time:null
+#in:null
+#out:null</label></transition><transition id="tran_id_F0E4B1BA_E87A_4d13_A5C1_658A4E577486_D35E08A3_DCF0_46b8_8BE5_2E06393C2968_8" timeDuration="null" name="millis()" receiveOrSend="?" type="null" condition="null" in="null" out="null" use="null" def="null" typeId="null" RESET="null"><source ref="loc_id_F0E4B1BA_E87A_4d13_A5C1_658A4E577486"/><target ref="loc_id_D35E08A3_DCF0_46b8_8BE5_2E06393C2968_8"/><label kind="synchronisation" x="30" y="30">
+#name:millis()
+#receiveOrSend:?
+#typeAndCondition:null
+#time:null
+#in:null
+#out:null</label></transition><transition id="tran_id_D35E08A3_DCF0_46b8_8BE5_2E06393C2968_8_CF74505B_4978_4ced_BADB_17F68009F2AC_8" timeDuration="null" name="set_pwm(short)" receiveOrSend="" type="[alt]" condition="has_new_input==True#has_new_input:bool" in="800&lt;=roll_pwm&lt;=2200#roll_pwm:int16_t" out="null" use="pwm" def="800&lt;=roll_pwm&lt;=2200#roll_pwm:int16_t" typeId="EAID_4068DBF6_4281_490b_BD28_E1CB4B2A2B4A_8" RESET="null"><source ref="loc_id_D35E08A3_DCF0_46b8_8BE5_2E06393C2968_8"/><target ref="loc_id_CF74505B_4978_4ced_BADB_17F68009F2AC_8"/><label kind="synchronisation" x="30" y="30">
+#name:set_pwm(short)
+#receiveOrSend:
+#typeAndCondition:[alt]/has_new_input==True#has_new_input:bool
+#time:null
+#in:800&lt;=roll_pwm&lt;=2200#roll_pwm:int16_t
+#out:null</label></transition><transition id="tran_id_D35E08A3_DCF0_46b8_8BE5_2E06393C2968_8_767F0F56_D485_47de_91D1_97E1F4CA582E_8" timeDuration="null" name="armed()" receiveOrSend="" type="[alt-opt]" condition="has_new_input==False#has_new_input:bool--((failsafe.rc_override_active==False &amp;&amp; (elapsed&gt;=500)) || (failsafe.rc_override_active==True &amp;&amp; (elapsed&gt;=2000))) &amp;&amp; failsafe.radio==false#failsafe.rc_override_active:bool,elapsed:uint32_t, failsafe.radio:bool" in="null" out="null" use="null" def="null" typeId="EAID_4068DBF6_4281_490b_BD28_E1CB4B2A2B4A_8-EAID_53A2A784_0E6A_4bf9_A65F_EBF71D136A0C_8" RESET="null"><source ref="loc_id_D35E08A3_DCF0_46b8_8BE5_2E06393C2968_8"/><target ref="loc_id_767F0F56_D485_47de_91D1_97E1F4CA582E_8"/><label kind="synchronisation" x="30" y="30">
+#name:armed()
+#receiveOrSend:
+#typeAndCondition:[alt-opt]/has_new_input==False#has_new_input:bool--((failsafe.rc_override_active==False &amp;&amp; (elapsed&gt;=500)) || (failsafe.rc_override_active==True &amp;&amp; (elapsed&gt;=2000))) &amp;&amp; failsafe.radio==false#failsafe.rc_override_active:bool,elapsed:uint32_t, failsafe.radio:bool
+#time:null
+#in:null
+#out:null</label></transition><transition id="tran_id_D35E08A3_DCF0_46b8_8BE5_2E06393C2968_8_6FD4FD41_B5A4_44ff_B43C_1DAFEC2DDDED" timeDuration="null" name="read_control_switch()" receiveOrSend="!" type="null--!(((failsafe.rc_override_active==False &amp;&amp; (elapsed&gt;=500)) || (failsafe.rc_override_active==True &amp;&amp; (elapsed&gt;=2000))) &amp;&amp; failsafe.radio==false)#failsafe.rc_override_active:bool,elapsed:uint32_t, failsafe.radio:bool" condition="null--!(((failsafe.rc_override_active==False &amp;&amp; (elapsed&gt;=500)) || (failsafe.rc_override_active==True &amp;&amp; (elapsed&gt;=2000))) &amp;&amp; failsafe.radio==false)#failsafe.rc_override_active:bool,elapsed:uint32_t, failsafe.radio:bool" in="null" out="null" use="null" def="null" typeId="null" RESET="null"><source ref="loc_id_D35E08A3_DCF0_46b8_8BE5_2E06393C2968_8"/><target ref="loc_id_6FD4FD41_B5A4_44ff_B43C_1DAFEC2DDDED"/><label kind="synchronisation" x="30" y="30">
+#name:read_control_switch()
+#receiveOrSend:!
+#typeAndCondition:null--!(((failsafe.rc_override_active==False &amp;&amp; (elapsed&gt;=500)) || (failsafe.rc_override_active==True &amp;&amp; (elapsed&gt;=2000))) &amp;&amp; failsafe.radio==false)#failsafe.rc_override_active:bool,elapsed:uint32_t, failsafe.radio:bool
+#time:null
+#in:null
+#out:null</label></transition><transition id="tran_id_CF74505B_4978_4ced_BADB_17F68009F2AC_8_BB0BA59E_33B9_4f4d_BAB5_C57D1A2CA044_8" timeDuration="null" name="set_pwm(short)" receiveOrSend="" type="[alt]" condition="has_new_input==True#has_new_input:bool" in="800&lt;=pitch_pwm&lt;=2200#pitch_pwm:int16_t" out="null" use="pwm" def="800&lt;=pitch_pwm&lt;=2200#pitch_pwm:int16_t" typeId="EAID_4068DBF6_4281_490b_BD28_E1CB4B2A2B4A_8" RESET="null"><source ref="loc_id_CF74505B_4978_4ced_BADB_17F68009F2AC_8"/><target ref="loc_id_BB0BA59E_33B9_4f4d_BAB5_C57D1A2CA044_8"/><label kind="synchronisation" x="30" y="30">
+#name:set_pwm(short)
+#receiveOrSend:
+#typeAndCondition:[alt]/has_new_input==True#has_new_input:bool
+#time:null
+#in:800&lt;=pitch_pwm&lt;=2200#pitch_pwm:int16_t
+#out:null</label></transition><transition id="tran_id_BB0BA59E_33B9_4f4d_BAB5_C57D1A2CA044_8_41F2D344_CCE6_4e2a_A417_9245889CE58C_8" timeDuration="null" name="set_pwm(short)" receiveOrSend="" type="[alt]" condition="has_new_input==True#has_new_input:bool" in="800&lt;= throttle_pwm&lt;=2200# throttle_pwm:int16_t" out="null" use="pwm" def="800&lt;= throttle_pwm&lt;=2200# throttle_pwm:int16_t" typeId="EAID_4068DBF6_4281_490b_BD28_E1CB4B2A2B4A_8" RESET="null"><source ref="loc_id_BB0BA59E_33B9_4f4d_BAB5_C57D1A2CA044_8"/><target ref="loc_id_41F2D344_CCE6_4e2a_A417_9245889CE58C_8"/><label kind="synchronisation" x="30" y="30">
+#name:set_pwm(short)
+#receiveOrSend:
+#typeAndCondition:[alt]/has_new_input==True#has_new_input:bool
+#time:null
+#in:800&lt;= throttle_pwm&lt;=2200# throttle_pwm:int16_t
+#out:null</label></transition><transition id="tran_id_41F2D344_CCE6_4e2a_A417_9245889CE58C_8_07C0CE50_BDA0_4d06_BCEE_2A8A209027AE_8" timeDuration="null" name="set_pwm(short)" receiveOrSend="" type="[alt]" condition="has_new_input==True#has_new_input:bool" in="800&lt;=yaw_pwm&lt;=2200#yaw_pwm:int16_t" out="null" use="pwm" def="800&lt;=yaw_pwm&lt;=2200#yaw_pwm:int16_t" typeId="EAID_4068DBF6_4281_490b_BD28_E1CB4B2A2B4A_8" RESET="null"><source ref="loc_id_41F2D344_CCE6_4e2a_A417_9245889CE58C_8"/><target ref="loc_id_07C0CE50_BDA0_4d06_BCEE_2A8A209027AE_8"/><label kind="synchronisation" x="30" y="30">
+#name:set_pwm(short)
+#receiveOrSend:
+#typeAndCondition:[alt]/has_new_input==True#has_new_input:bool
+#time:null
+#in:800&lt;=yaw_pwm&lt;=2200#yaw_pwm:int16_t
+#out:null</label></transition><transition id="tran_id_07C0CE50_BDA0_4d06_BCEE_2A8A209027AE_8_C19A57F6_1F39_4096_A9DE_F46E960592E3_8" timeDuration="null" name="set_throttle_and_failsafe(unsigned short)" receiveOrSend="!" type="[alt]" condition="has_new_input==True#has_new_input:bool" in="0&lt;=g.failsafe_throttle&lt;=1,925&lt;=g.failsafe_throttle_value&lt;=1100#g.failsafe_throttle:int8_t,g.failsafe_throttle_value:int16_t" out="null" use="throttle_pwm" def="0&lt;=g.failsafe_throttle&lt;=1,925&lt;=g.failsafe_throttle_value&lt;=1100#g.failsafe_throttle:int8_t,g.failsafe_throttle_value:int16_t" typeId="EAID_4068DBF6_4281_490b_BD28_E1CB4B2A2B4A_8" RESET="null"><source ref="loc_id_07C0CE50_BDA0_4d06_BCEE_2A8A209027AE_8"/><target ref="loc_id_C19A57F6_1F39_4096_A9DE_F46E960592E3_8"/><label kind="synchronisation" x="30" y="30">
+#name:set_throttle_and_failsafe(unsigned short)
+#receiveOrSend:!
+#typeAndCondition:[alt]/has_new_input==True#has_new_input:bool
+#time:null
+#in:0&lt;=g.failsafe_throttle&lt;=1,925&lt;=g.failsafe_throttle_value&lt;=1100#g.failsafe_throttle:int8_t,g.failsafe_throttle_value:int16_t
+#out:null</label></transition><transition id="tran_id_C19A57F6_1F39_4096_A9DE_F46E960592E3_8_3CAFCD0B_5722_4243_86A5_7DFA0FC23310_8" timeDuration="null" name="set_pwm(short)" receiveOrSend="?" type="[alt-alt]" condition="has_new_input==True#has_new_input:bool--g.failsafe_throttle==0#g.failsafe_throttle:int8_t" in="null" out="null" use="pwm" def="null" typeId="EAID_4068DBF6_4281_490b_BD28_E1CB4B2A2B4A_8-EAID_5417E9E0_B4B4_40ec_8ACA_BC91A9C4AC30_8" RESET="null"><source ref="loc_id_C19A57F6_1F39_4096_A9DE_F46E960592E3_8"/><target ref="loc_id_3CAFCD0B_5722_4243_86A5_7DFA0FC23310_8"/><label kind="synchronisation" x="30" y="30">
+#name:set_pwm(short)
+#receiveOrSend:?
+#typeAndCondition:[alt-alt]/has_new_input==True#has_new_input:bool--g.failsafe_throttle==0#g.failsafe_throttle:int8_t
+#time:null
+#in:null
+#out:null</label></transition><transition id="tran_id_C19A57F6_1F39_4096_A9DE_F46E960592E3_8_1203661F_1677_4d8b_8AA2_9E9C655CE0E3_8" timeDuration="null" name="armed()" receiveOrSend="" type="[alt-alt-alt]" condition="has_new_input==True#has_new_input:bool--g.failsafe_throttle!=0#g.failsafe_throttle:int8_t--throttle_pwm&lt;g.failsafe_throttle_value#throttle_pwm:uint16_t,g.failsafe_throttle_value:uint16_t#800&lt;=throttle_pwm&lt;=2200,925&lt;=g.failsafe_throttle_value&lt;=1100" in="null" out="null" use="null" def="null" typeId="EAID_4068DBF6_4281_490b_BD28_E1CB4B2A2B4A_8-EAID_5417E9E0_B4B4_40ec_8ACA_BC91A9C4AC30_8-EAID_771C4A40_4ED9_4f42_9051_02D6481DCD7E_8" RESET="null"><source ref="loc_id_C19A57F6_1F39_4096_A9DE_F46E960592E3_8"/><target ref="loc_id_1203661F_1677_4d8b_8AA2_9E9C655CE0E3_8"/><label kind="synchronisation" x="30" y="30">
+#name:armed()
+#receiveOrSend:
+#typeAndCondition:[alt-alt-alt]/has_new_input==True#has_new_input:bool--g.failsafe_throttle!=0#g.failsafe_throttle:int8_t--throttle_pwm&lt;g.failsafe_throttle_value#throttle_pwm:uint16_t,g.failsafe_throttle_value:uint16_t#800&lt;=throttle_pwm&lt;=2200,925&lt;=g.failsafe_throttle_value&lt;=1100
+#time:null
+#in:null
+#out:null</label></transition><transition id="tran_id_C19A57F6_1F39_4096_A9DE_F46E960592E3_8_E387BBB4_6023_4d05_B5F2_5170D968C0D0_8" timeDuration="null" name="set_failsafe_radio(bool)" receiveOrSend="!" type="[alt-alt-alt-opt]" condition="has_new_input==True#has_new_input:bool--g.failsafe_throttle!=0#g.failsafe_throttle:int8_t--throttle_pwm&gt;=g.failsafe_throttle_value#throttle_pwm:uint16_t,g.failsafe_throttle_value:uint16_t#800&lt;=throttle_pwm&lt;=2200,925&lt;=g.failsafe_throttle_value&lt;=1100--failsafe.radio_counter &lt;= 0&amp;&amp;failsafe.radio==true#failsafe.radio_counter:int8_t,failsafe.radio:bool" in="null" out="null" use="b" def="null" typeId="EAID_4068DBF6_4281_490b_BD28_E1CB4B2A2B4A_8-EAID_5417E9E0_B4B4_40ec_8ACA_BC91A9C4AC30_8-EAID_771C4A40_4ED9_4f42_9051_02D6481DCD7E_8-EAID_79A2EC93_E256_473d_BCB8_EB3A895301CE_8" RESET="null"><source ref="loc_id_C19A57F6_1F39_4096_A9DE_F46E960592E3_8"/><target ref="loc_id_E387BBB4_6023_4d05_B5F2_5170D968C0D0_8"/><label kind="synchronisation" x="30" y="30">
+#name:set_failsafe_radio(bool)
+#receiveOrSend:!
+#typeAndCondition:[alt-alt-alt-opt]/has_new_input==True#has_new_input:bool--g.failsafe_throttle!=0#g.failsafe_throttle:int8_t--throttle_pwm&gt;=g.failsafe_throttle_value#throttle_pwm:uint16_t,g.failsafe_throttle_value:uint16_t#800&lt;=throttle_pwm&lt;=2200,925&lt;=g.failsafe_throttle_value&lt;=1100--failsafe.radio_counter &lt;= 0&amp;&amp;failsafe.radio==true#failsafe.radio_counter:int8_t,failsafe.radio:bool
+#time:null
+#in:null
+#out:null</label></transition><transition id="tran_id_C19A57F6_1F39_4096_A9DE_F46E960592E3_8_9B309197_6A2A_4b2b_ACBC_0F2746F6D5B1_8" timeDuration="null" name="set_pwm(short)" receiveOrSend="?" type="[alt-alt-alt]" condition="has_new_input==True#has_new_input:bool--g.failsafe_throttle!=0#g.failsafe_throttle:int8_t--throttle_pwm&gt;=g.failsafe_throttle_value#throttle_pwm:uint16_t,g.failsafe_throttle_value:uint16_t#800&lt;=throttle_pwm&lt;=2200,925&lt;=g.failsafe_throttle_value&lt;=1100--null--!(failsafe.radio_counter &lt;= 0&amp;&amp;failsafe.radio==true)#failsafe.radio_counter:int8_t,failsafe.radio:bool" in="null" out="null" use="pwm" def="null" typeId="EAID_4068DBF6_4281_490b_BD28_E1CB4B2A2B4A_8-EAID_5417E9E0_B4B4_40ec_8ACA_BC91A9C4AC30_8-EAID_771C4A40_4ED9_4f42_9051_02D6481DCD7E_8" RESET="null"><source ref="loc_id_C19A57F6_1F39_4096_A9DE_F46E960592E3_8"/><target ref="loc_id_9B309197_6A2A_4b2b_ACBC_0F2746F6D5B1_8"/><label kind="synchronisation" x="30" y="30">
+#name:set_pwm(short)
+#receiveOrSend:?
+#typeAndCondition:[alt-alt-alt]/has_new_input==True#has_new_input:bool--g.failsafe_throttle!=0#g.failsafe_throttle:int8_t--throttle_pwm&gt;=g.failsafe_throttle_value#throttle_pwm:uint16_t,g.failsafe_throttle_value:uint16_t#800&lt;=throttle_pwm&lt;=2200,925&lt;=g.failsafe_throttle_value&lt;=1100--null--!(failsafe.radio_counter &lt;= 0&amp;&amp;failsafe.radio==true)#failsafe.radio_counter:int8_t,failsafe.radio:bool
+#time:null
+#in:null
+#out:null</label></transition><transition id="tran_id_3CAFCD0B_5722_4243_86A5_7DFA0FC23310_8_CD3C052F_C23E_44d2_8A46_0290B5D1A022_8" timeDuration="null" name="set_throttle_zero_flag(short)" receiveOrSend="!" type="[alt]" condition="has_new_input==True#has_new_input:bool" in="tnow_ms#tnow_ms:uint32_t" out="null" use="throttle_control" def="tnow_ms#tnow_ms:uint32_t" typeId="EAID_4068DBF6_4281_490b_BD28_E1CB4B2A2B4A_8" RESET="null"><source ref="loc_id_3CAFCD0B_5722_4243_86A5_7DFA0FC23310_8"/><target ref="loc_id_CD3C052F_C23E_44d2_8A46_0290B5D1A022_8"/><label kind="synchronisation" x="30" y="30">
+#name:set_throttle_zero_flag(short)
+#receiveOrSend:!
+#typeAndCondition:[alt]/has_new_input==True#has_new_input:bool
+#time:null
+#in:tnow_ms#tnow_ms:uint32_t
+#out:null</label></transition><transition id="tran_id_1203661F_1677_4d8b_8AA2_9E9C655CE0E3_8_9C550A10_41A4_4271_B814_51461C750C52_8" timeDuration="null" name="set_pwm(short)" receiveOrSend="" type="[alt-alt-alt-alt]" condition="has_new_input==True#has_new_input:bool--g.failsafe_throttle!=0#g.failsafe_throttle:int8_t--throttle_pwm&lt;g.failsafe_throttle_value#throttle_pwm:uint16_t,g.failsafe_throttle_value:uint16_t#800&lt;=throttle_pwm&lt;=2200,925&lt;=g.failsafe_throttle_value&lt;=1100--failsafe.radio==true || (ap.rc_receiver_present==false &amp;&amp; has_armed==false)#failsafe.radio:bool,ap.rc_receiver_present:bool,has_armed:bool" in="null" out="null" use="pwm" def="null" typeId="EAID_4068DBF6_4281_490b_BD28_E1CB4B2A2B4A_8-EAID_5417E9E0_B4B4_40ec_8ACA_BC91A9C4AC30_8-EAID_771C4A40_4ED9_4f42_9051_02D6481DCD7E_8-EAID_7AB927F9_733D_4d3f_BF5E_F230A7DE74D1_8" RESET="null"><source ref="loc_id_1203661F_1677_4d8b_8AA2_9E9C655CE0E3_8"/><target ref="loc_id_9C550A10_41A4_4271_B814_51461C750C52_8"/><label kind="synchronisation" x="30" y="30">
+#name:set_pwm(short)
+#receiveOrSend:
+#typeAndCondition:[alt-alt-alt-alt]/has_new_input==True#has_new_input:bool--g.failsafe_throttle!=0#g.failsafe_throttle:int8_t--throttle_pwm&lt;g.failsafe_throttle_value#throttle_pwm:uint16_t,g.failsafe_throttle_value:uint16_t#800&lt;=throttle_pwm&lt;=2200,925&lt;=g.failsafe_throttle_value&lt;=1100--failsafe.radio==true || (ap.rc_receiver_present==false &amp;&amp; has_armed==false)#failsafe.radio:bool,ap.rc_receiver_present:bool,has_armed:bool
+#time:null
+#in:null
+#out:null</label></transition><transition id="tran_id_1203661F_1677_4d8b_8AA2_9E9C655CE0E3_8_B5235FC3_93F5_4322_A212_B88A808DF14F_8" timeDuration="null" name="set_failsafe_radio(bool)" receiveOrSend="!" type="[alt-alt-alt-alt-opt]" condition="has_new_input==True#has_new_input:bool--g.failsafe_throttle!=0#g.failsafe_throttle:int8_t--throttle_pwm&lt;g.failsafe_throttle_value#throttle_pwm:uint16_t,g.failsafe_throttle_value:uint16_t#800&lt;=throttle_pwm&lt;=2200,925&lt;=g.failsafe_throttle_value&lt;=1100--failsafe.radio==false &amp;&amp; (ap.rc_receiver_present==true || has_armed==true)#failsafe.radio:bool,ap.rc_receiver_present:bool,has_armed:bool--failsafe.radio_counter &gt;= 3#failsafe.radio_counter:int8_t" in="null" out="null" use="b" def="null" typeId="EAID_4068DBF6_4281_490b_BD28_E1CB4B2A2B4A_8-EAID_5417E9E0_B4B4_40ec_8ACA_BC91A9C4AC30_8-EAID_771C4A40_4ED9_4f42_9051_02D6481DCD7E_8-EAID_7AB927F9_733D_4d3f_BF5E_F230A7DE74D1_8-EAID_86425D4F_3F02_413c_9FD1_F28E20E1CF0A_8" RESET="null"><source ref="loc_id_1203661F_1677_4d8b_8AA2_9E9C655CE0E3_8"/><target ref="loc_id_B5235FC3_93F5_4322_A212_B88A808DF14F_8"/><label kind="synchronisation" x="30" y="30">
+#name:set_failsafe_radio(bool)
+#receiveOrSend:!
+#typeAndCondition:[alt-alt-alt-alt-opt]/has_new_input==True#has_new_input:bool--g.failsafe_throttle!=0#g.failsafe_throttle:int8_t--throttle_pwm&lt;g.failsafe_throttle_value#throttle_pwm:uint16_t,g.failsafe_throttle_value:uint16_t#800&lt;=throttle_pwm&lt;=2200,925&lt;=g.failsafe_throttle_value&lt;=1100--failsafe.radio==false &amp;&amp; (ap.rc_receiver_present==true || has_armed==true)#failsafe.radio:bool,ap.rc_receiver_present:bool,has_armed:bool--failsafe.radio_counter &gt;= 3#failsafe.radio_counter:int8_t
+#time:null
+#in:null
+#out:null</label></transition><transition id="tran_id_1203661F_1677_4d8b_8AA2_9E9C655CE0E3_8_CD3C052F_C23E_44d2_8A46_0290B5D1A022_8" timeDuration="null" name="set_throttle_zero_flag(short)" receiveOrSend="!" type="[alt]" condition="has_new_input==True#has_new_input:bool" in="tnow_ms#tnow_ms:uint32_t" out="null" use="throttle_control" def="tnow_ms#tnow_ms:uint32_t" typeId="EAID_4068DBF6_4281_490b_BD28_E1CB4B2A2B4A_8" RESET="null"><source ref="loc_id_1203661F_1677_4d8b_8AA2_9E9C655CE0E3_8"/><target ref="loc_id_CD3C052F_C23E_44d2_8A46_0290B5D1A022_8"/><label kind="synchronisation" x="30" y="30">
+#name:set_throttle_zero_flag(short)
+#receiveOrSend:!
+#typeAndCondition:[alt]/has_new_input==True#has_new_input:bool
+#time:null
+#in:tnow_ms#tnow_ms:uint32_t
+#out:null</label></transition><transition id="tran_id_9C550A10_41A4_4271_B814_51461C750C52_8_CD3C052F_C23E_44d2_8A46_0290B5D1A022_8" timeDuration="null" name="set_throttle_zero_flag(short)" receiveOrSend="!" type="[alt]" condition="has_new_input==True#has_new_input:bool" in="tnow_ms#tnow_ms:uint32_t" out="null" use="throttle_control" def="tnow_ms#tnow_ms:uint32_t" typeId="EAID_4068DBF6_4281_490b_BD28_E1CB4B2A2B4A_8" RESET="null"><source ref="loc_id_9C550A10_41A4_4271_B814_51461C750C52_8"/><target ref="loc_id_CD3C052F_C23E_44d2_8A46_0290B5D1A022_8"/><label kind="synchronisation" x="30" y="30">
+#name:set_throttle_zero_flag(short)
+#receiveOrSend:!
+#typeAndCondition:[alt]/has_new_input==True#has_new_input:bool
+#time:null
+#in:tnow_ms#tnow_ms:uint32_t
+#out:null</label></transition><transition id="tran_id_B5235FC3_93F5_4322_A212_B88A808DF14F_8_EDD94D18_9992_4dd8_9814_F3EAB6AD9142_8" timeDuration="null" name="set_pwm(short)" receiveOrSend="?" type="[alt-alt-alt-alt-opt]" condition="has_new_input==True#has_new_input:bool--g.failsafe_throttle!=0#g.failsafe_throttle:int8_t--throttle_pwm&lt;g.failsafe_throttle_value#throttle_pwm:uint16_t,g.failsafe_throttle_value:uint16_t#800&lt;=throttle_pwm&lt;=2200,925&lt;=g.failsafe_throttle_value&lt;=1100--failsafe.radio==false &amp;&amp; (ap.rc_receiver_present==true || has_armed==true)#failsafe.radio:bool,ap.rc_receiver_present:bool,has_armed:bool--failsafe.radio_counter &gt;= 3#failsafe.radio_counter:int8_t" in="null" out="null" use="pwm" def="null" typeId="EAID_4068DBF6_4281_490b_BD28_E1CB4B2A2B4A_8-EAID_5417E9E0_B4B4_40ec_8ACA_BC91A9C4AC30_8-EAID_771C4A40_4ED9_4f42_9051_02D6481DCD7E_8-EAID_7AB927F9_733D_4d3f_BF5E_F230A7DE74D1_8-EAID_86425D4F_3F02_413c_9FD1_F28E20E1CF0A_8" RESET="null"><source ref="loc_id_B5235FC3_93F5_4322_A212_B88A808DF14F_8"/><target ref="loc_id_EDD94D18_9992_4dd8_9814_F3EAB6AD9142_8"/><label kind="synchronisation" x="30" y="30">
+#name:set_pwm(short)
+#receiveOrSend:?
+#typeAndCondition:[alt-alt-alt-alt-opt]/has_new_input==True#has_new_input:bool--g.failsafe_throttle!=0#g.failsafe_throttle:int8_t--throttle_pwm&lt;g.failsafe_throttle_value#throttle_pwm:uint16_t,g.failsafe_throttle_value:uint16_t#800&lt;=throttle_pwm&lt;=2200,925&lt;=g.failsafe_throttle_value&lt;=1100--failsafe.radio==false &amp;&amp; (ap.rc_receiver_present==true || has_armed==true)#failsafe.radio:bool,ap.rc_receiver_present:bool,has_armed:bool--failsafe.radio_counter &gt;= 3#failsafe.radio_counter:int8_t
+#time:null
+#in:null
+#out:null</label></transition><transition id="tran_id_EDD94D18_9992_4dd8_9814_F3EAB6AD9142_8_CD3C052F_C23E_44d2_8A46_0290B5D1A022_8" timeDuration="null" name="set_throttle_zero_flag(short)" receiveOrSend="!" type="[alt]" condition="has_new_input==True#has_new_input:bool" in="tnow_ms#tnow_ms:uint32_t" out="null" use="throttle_control" def="tnow_ms#tnow_ms:uint32_t" typeId="EAID_4068DBF6_4281_490b_BD28_E1CB4B2A2B4A_8" RESET="null"><source ref="loc_id_EDD94D18_9992_4dd8_9814_F3EAB6AD9142_8"/><target ref="loc_id_CD3C052F_C23E_44d2_8A46_0290B5D1A022_8"/><label kind="synchronisation" x="30" y="30">
+#name:set_throttle_zero_flag(short)
+#receiveOrSend:!
+#typeAndCondition:[alt]/has_new_input==True#has_new_input:bool
+#time:null
+#in:tnow_ms#tnow_ms:uint32_t
+#out:null</label></transition><transition id="tran_id_E387BBB4_6023_4d05_B5F2_5170D968C0D0_8_9B309197_6A2A_4b2b_ACBC_0F2746F6D5B1_8" timeDuration="null" name="set_pwm(short)" receiveOrSend="?" type="[alt-alt-alt]" condition="has_new_input==True#has_new_input:bool--g.failsafe_throttle!=0#g.failsafe_throttle:int8_t--throttle_pwm&gt;=g.failsafe_throttle_value#throttle_pwm:uint16_t,g.failsafe_throttle_value:uint16_t#800&lt;=throttle_pwm&lt;=2200,925&lt;=g.failsafe_throttle_value&lt;=1100" in="null" out="null" use="pwm" def="null" typeId="EAID_4068DBF6_4281_490b_BD28_E1CB4B2A2B4A_8-EAID_5417E9E0_B4B4_40ec_8ACA_BC91A9C4AC30_8-EAID_771C4A40_4ED9_4f42_9051_02D6481DCD7E_8" RESET="null"><source ref="loc_id_E387BBB4_6023_4d05_B5F2_5170D968C0D0_8"/><target ref="loc_id_9B309197_6A2A_4b2b_ACBC_0F2746F6D5B1_8"/><label kind="synchronisation" x="30" y="30">
+#name:set_pwm(short)
+#receiveOrSend:?
+#typeAndCondition:[alt-alt-alt]/has_new_input==True#has_new_input:bool--g.failsafe_throttle!=0#g.failsafe_throttle:int8_t--throttle_pwm&gt;=g.failsafe_throttle_value#throttle_pwm:uint16_t,g.failsafe_throttle_value:uint16_t#800&lt;=throttle_pwm&lt;=2200,925&lt;=g.failsafe_throttle_value&lt;=1100
+#time:null
+#in:null
+#out:null</label></transition><transition id="tran_id_9B309197_6A2A_4b2b_ACBC_0F2746F6D5B1_8_CD3C052F_C23E_44d2_8A46_0290B5D1A022_8" timeDuration="null" name="set_throttle_zero_flag(short)" receiveOrSend="!" type="[alt]" condition="has_new_input==True#has_new_input:bool" in="tnow_ms#tnow_ms:uint32_t" out="null" use="throttle_control" def="tnow_ms#tnow_ms:uint32_t" typeId="EAID_4068DBF6_4281_490b_BD28_E1CB4B2A2B4A_8" RESET="null"><source ref="loc_id_9B309197_6A2A_4b2b_ACBC_0F2746F6D5B1_8"/><target ref="loc_id_CD3C052F_C23E_44d2_8A46_0290B5D1A022_8"/><label kind="synchronisation" x="30" y="30">
+#name:set_throttle_zero_flag(short)
+#receiveOrSend:!
+#typeAndCondition:[alt]/has_new_input==True#has_new_input:bool
+#time:null
+#in:tnow_ms#tnow_ms:uint32_t
+#out:null</label></transition><transition id="tran_id_CD3C052F_C23E_44d2_8A46_0290B5D1A022_8_6FD4FD41_B5A4_44ff_B43C_1DAFEC2DDDED" timeDuration="null" name="read_control_switch()" receiveOrSend="!" type="null" condition="null" in="null" out="null" use="null" def="null" typeId="null" RESET="null"><source ref="loc_id_CD3C052F_C23E_44d2_8A46_0290B5D1A022_8"/><target ref="loc_id_6FD4FD41_B5A4_44ff_B43C_1DAFEC2DDDED"/><label kind="synchronisation" x="30" y="30">
+#name:read_control_switch()
+#receiveOrSend:!
+#typeAndCondition:null
+#time:null
+#in:null
+#out:null</label></transition><transition id="tran_id_767F0F56_D485_47de_91D1_97E1F4CA582E_8_25EE2114_0AE9_470f_B9CD_1AC41438A214_8" timeDuration="null" name="set_failsafe_radio(bool)" receiveOrSend="!" type="[alt-opt-opt]" condition="has_new_input==False#has_new_input:bool--((failsafe.rc_override_active==False &amp;&amp; (elapsed&gt;=500)) || (failsafe.rc_override_active==True &amp;&amp; (elapsed&gt;=2000))) &amp;&amp; failsafe.radio==false#failsafe.rc_override_active:bool,elapsed:uint32_t, failsafe.radio:bool--g.failsafe_throttle==1 &amp;&amp; (ap.rc_receiver_present==true || is_armed==true)#g.failsafe_throttle:int8_t,ap.rc_receiver_present:bool,is_armed:bool" in="null" out="null" use="b" def="true" typeId="EAID_4068DBF6_4281_490b_BD28_E1CB4B2A2B4A_8-EAID_53A2A784_0E6A_4bf9_A65F_EBF71D136A0C_8-EAID_2D5C2A75_5C7E_4d84_BFE4_2B4A91D99EE8_8" RESET="null"><source ref="loc_id_767F0F56_D485_47de_91D1_97E1F4CA582E_8"/><target ref="loc_id_25EE2114_0AE9_470f_B9CD_1AC41438A214_8"/><label kind="synchronisation" x="30" y="30">
+#name:set_failsafe_radio(bool)
+#receiveOrSend:!
+#typeAndCondition:[alt-opt-opt]/has_new_input==False#has_new_input:bool--((failsafe.rc_override_active==False &amp;&amp; (elapsed&gt;=500)) || (failsafe.rc_override_active==True &amp;&amp; (elapsed&gt;=2000))) &amp;&amp; failsafe.radio==false#failsafe.rc_override_active:bool,elapsed:uint32_t, failsafe.radio:bool--g.failsafe_throttle==1 &amp;&amp; (ap.rc_receiver_present==true || is_armed==true)#g.failsafe_throttle:int8_t,ap.rc_receiver_present:bool,is_armed:bool
+#time:null
+#in:null
+#out:null</label></transition><transition id="tran_id_767F0F56_D485_47de_91D1_97E1F4CA582E_8_6FD4FD41_B5A4_44ff_B43C_1DAFEC2DDDED" timeDuration="null" name="read_control_switch()" receiveOrSend="?" type="!(g.failsafe_throttle==1 &amp;&amp; (ap.rc_receiver_present==true || is_armed==true))#g.failsafe_throttle:int8_t,ap.rc_receiver_present:bool,is_armed:bool" condition="!(g.failsafe_throttle==1 &amp;&amp; (ap.rc_receiver_present==true || is_armed==true))#g.failsafe_throttle:int8_t,ap.rc_receiver_present:bool,is_armed:bool" in="null" out="null" use="null" def="null" typeId="null" RESET="null"><source ref="loc_id_767F0F56_D485_47de_91D1_97E1F4CA582E_8"/><target ref="loc_id_6FD4FD41_B5A4_44ff_B43C_1DAFEC2DDDED"/><label kind="synchronisation" x="30" y="30">
+#name:read_control_switch()
+#receiveOrSend:?
+#typeAndCondition:!(g.failsafe_throttle==1 &amp;&amp; (ap.rc_receiver_present==true || is_armed==true))#g.failsafe_throttle:int8_t,ap.rc_receiver_present:bool,is_armed:bool
+#time:null
+#in:null
+#out:null</label></transition><transition id="tran_id_25EE2114_0AE9_470f_B9CD_1AC41438A214_8_6FD4FD41_B5A4_44ff_B43C_1DAFEC2DDDED" timeDuration="null" name="read_control_switch()" receiveOrSend="?" type="null" condition="null" in="null" out="null" use="null" def="null" typeId="null" RESET="null"><source ref="loc_id_25EE2114_0AE9_470f_B9CD_1AC41438A214_8"/><target ref="loc_id_6FD4FD41_B5A4_44ff_B43C_1DAFEC2DDDED"/><label kind="synchronisation" x="30" y="30">
+#name:read_control_switch()
+#receiveOrSend:?
+#typeAndCondition:null
+#time:null
+#in:null
+#out:null</label></transition><transition id="tran_id_6FD4FD41_B5A4_44ff_B43C_1DAFEC2DDDED_2A86A34F_F179_4b80_85DB_8DCE35380056" timeDuration="null" name="millis()" receiveOrSend="?" type="null" condition="null" in="null" out="null" use="null" def="null" typeId="null" RESET="null"><source ref="loc_id_6FD4FD41_B5A4_44ff_B43C_1DAFEC2DDDED"/><target ref="loc_id_2A86A34F_F179_4b80_85DB_8DCE35380056"/><label kind="synchronisation" x="30" y="30">
+#name:millis()
+#receiveOrSend:?
+#typeAndCondition:null
+#time:null
+#in:null
+#out:null</label></transition><transition id="tran_id_2A86A34F_F179_4b80_85DB_8DCE35380056_A73EE02C_7A7A_424e_90AC_0A2B1945A601" timeDuration="null" name="set_mode(unsigned char)" receiveOrSend="!?" type="[opt]" condition="control_switch_changed==True &amp;&amp; sufficient_time_elapsed==True &amp;&amp; failsafe_disengaged==True#control_switch_changed:bool,sufficient_time_elapsed:bool,failsafe_disengaged:bool" in="null" out="null" use="mode" def="null" typeId="EAID_81BE3116_DBA2_41fb_A20A_58C959DABA5D" RESET="null"><source ref="loc_id_2A86A34F_F179_4b80_85DB_8DCE35380056"/><target ref="loc_id_A73EE02C_7A7A_424e_90AC_0A2B1945A601"/><label kind="synchronisation" x="30" y="30">
+#name:set_mode(unsigned char)
+#receiveOrSend:!?
+#typeAndCondition:[opt]/control_switch_changed==True &amp;&amp; sufficient_time_elapsed==True &amp;&amp; failsafe_disengaged==True#control_switch_changed:bool,sufficient_time_elapsed:bool,failsafe_disengaged:bool
+#time:null
+#in:null
+#out:null</label></transition></template><system>system template_;</system></nta>

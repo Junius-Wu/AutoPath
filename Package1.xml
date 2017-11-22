@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nta><declaration>// Place global declarations here.</declaration><template><name x="30" y="30">template_</name><declaration/><location id="loc_id_init" x="30" y="30" timeDuration="null" final="false"><name x="30" y="30">Object1:_init
+time:null</name></location><location id="loc_id_5C5B3604_B98B_42f4_A80D_F61C2B9F618C" x="30" y="30" timeDuration="null" final="true"><name x="30" y="30">Object2:0
+time:null</name></location><location id="loc_id_1CC62667_2B6D_4654_A834_76E1A1ACC0F4" x="30" y="30" timeDuration="null" final="true"><name x="30" y="30">Object2:1
+time:null</name></location><location id="loc_id_E0A33F29_1E30_4434_8009_EDD212E1C967" x="30" y="30" timeDuration="null" final="false"><name x="30" y="30">Object2:2
+time:null</name></location><location id="loc_id_839BDB67_E542_4f9a_B892_F51044EE9BC7" x="30" y="30" timeDuration="null" final="true"><name x="30" y="30">Object2:3
+time:null</name></location><init ref="loc_id_init"/><transition id="tran_id_init_5C5B3604_B98B_42f4_A80D_F61C2B9F618C" timeDuration="null" name="0" receiveOrSend="" type="null" condition="null" in="null" out="null" use="null" def="null" typeId="null" RESET="null"><source ref="loc_id_init"/><target ref="loc_id_5C5B3604_B98B_42f4_A80D_F61C2B9F618C"/><label kind="synchronisation" x="30" y="30">
+#name:0
+#receiveOrSend:
+#typeAndCondition:null
+#time:null
+#in:null
+#out:null</label></transition><transition id="tran_id_5C5B3604_B98B_42f4_A80D_F61C2B9F618C_1CC62667_2B6D_4654_A834_76E1A1ACC0F4" timeDuration="null" name="1" receiveOrSend="" type="[opt]" condition="ccc" in="null" out="null" use="null" def="null" typeId="EAID_1C4CE4FA_14FA_4651_92B2_4A565015A497" RESET="null"><source ref="loc_id_5C5B3604_B98B_42f4_A80D_F61C2B9F618C"/><target ref="loc_id_1CC62667_2B6D_4654_A834_76E1A1ACC0F4"/><label kind="synchronisation" x="30" y="30">
+#name:1
+#receiveOrSend:
+#typeAndCondition:[opt]/ccc
+#time:null
+#in:null
+#out:null</label></transition><transition id="tran_id_5C5B3604_B98B_42f4_A80D_F61C2B9F618C_E0A33F29_1E30_4434_8009_EDD212E1C967" timeDuration="null" name="2" receiveOrSend="" type="[loop]" condition="lll--!(ccc)" in="null" out="null" use="null" def="null" typeId="EAID_08BCF937_58B7_4b5c_A17E_FB524BE2FC75" RESET="null"><source ref="loc_id_5C5B3604_B98B_42f4_A80D_F61C2B9F618C"/><target ref="loc_id_E0A33F29_1E30_4434_8009_EDD212E1C967"/><label kind="synchronisation" x="30" y="30">
+#name:2
+#receiveOrSend:
+#typeAndCondition:[loop]/lll--!(ccc)
+#time:null
+#in:null
+#out:null</label></transition><transition id="tran_id_1CC62667_2B6D_4654_A834_76E1A1ACC0F4_E0A33F29_1E30_4434_8009_EDD212E1C967" timeDuration="null" name="2" receiveOrSend="" type="[loop]" condition="lll" in="null" out="null" use="null" def="null" typeId="EAID_08BCF937_58B7_4b5c_A17E_FB524BE2FC75" RESET="null"><source ref="loc_id_1CC62667_2B6D_4654_A834_76E1A1ACC0F4"/><target ref="loc_id_E0A33F29_1E30_4434_8009_EDD212E1C967"/><label kind="synchronisation" x="30" y="30">
+#name:2
+#receiveOrSend:
+#typeAndCondition:[loop]/lll
+#time:null
+#in:null
+#out:null</label></transition><transition id="tran_id_E0A33F29_1E30_4434_8009_EDD212E1C967_839BDB67_E542_4f9a_B892_F51044EE9BC7" timeDuration="null" name="3" receiveOrSend="" type="[loop]" condition="lll" in="null" out="null" use="null" def="null" typeId="EAID_08BCF937_58B7_4b5c_A17E_FB524BE2FC75" RESET="null"><source ref="loc_id_E0A33F29_1E30_4434_8009_EDD212E1C967"/><target ref="loc_id_839BDB67_E542_4f9a_B892_F51044EE9BC7"/><label kind="synchronisation" x="30" y="30">
+#name:3
+#receiveOrSend:
+#typeAndCondition:[loop]/lll
+#time:null
+#in:null
+#out:null</label></transition><transition id="tran_id_839BDB67_E542_4f9a_B892_F51044EE9BC7_E0A33F29_1E30_4434_8009_EDD212E1C967" timeDuration="null" name="2" receiveOrSend="" type="[loop]" condition="lll" in="null" out="null" use="null" def="null" typeId="EAID_08BCF937_58B7_4b5c_A17E_FB524BE2FC75" RESET="null"><source ref="loc_id_839BDB67_E542_4f9a_B892_F51044EE9BC7"/><target ref="loc_id_E0A33F29_1E30_4434_8009_EDD212E1C967"/><label kind="synchronisation" x="30" y="30">
+#name:2
+#receiveOrSend:
+#typeAndCondition:[loop]/lll
+#time:null
+#in:null
+#out:null</label></transition></template><system>system template_;</system></nta>
