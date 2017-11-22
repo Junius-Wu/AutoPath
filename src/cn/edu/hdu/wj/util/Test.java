@@ -14,6 +14,8 @@ import cn.edu.hdu.ckt.testcase.*;
 import cn.edu.hdu.wj.bean.*;
 
 public class Test {
+	private static ArrayList<Automatic> paths;
+
 	public static void main(String args[]) throws Exception {
 		SimpleDateFormat time=new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 		long time1=System.currentTimeMillis();  
@@ -23,14 +25,14 @@ public class Test {
 		int min = Integer.MAX_VALUE;
 		// 用法
 		Automatic automatic = GetAutomatic.getAutomatic("UAVForXStreamGaoDuV9.xml");
-		for(int i = 0; i <1000;i++) {
+		
 		// 迁移覆盖的所有路径
-		min = Math.min(min, GeneratePath.getFormatPathFromAutomatic(copy(automatic), 1).size());
-		// 性能测试的一条路径
-//		GeneratePath.getPerformPathFromAutomatic(automatic);
-		}
-		System.out.println("Min =" + min);
+		paths = GeneratePath.getFormatPathFromAutomatic(copy(automatic), 200);
 
+//		
+		System.out.println("Min =" + min);
+// 性能测试的一条路径
+//		GeneratePath.getPerformPathFromAutomatic(automatic);
 		TimeString = time.format(new java.util.Date());
 		System.out.println(TimeString);
 	}

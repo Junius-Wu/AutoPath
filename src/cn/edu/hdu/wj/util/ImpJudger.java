@@ -53,15 +53,15 @@ public class ImpJudger {
 	public Matrix calculateIpOrOp(Matrix point, Matrix left, Matrix map) {
 		Matrix oldPoint;
 		// 测试 无重要度的情况
-//		return point;
-		do {
-			oldPoint = point;
-			Matrix MAPxI = map.times(point);
-			Matrix right = MAPxI.times(ALPHA / MAPxI.normF());
-			point  = left.plus(right);
-			
-		} while (closeToOldPoint(oldPoint.getArray(), point.getArray()));
 		return point;
+//		do {
+//			oldPoint = point;
+//			Matrix MAPxI = map.times(point);
+//			Matrix right = MAPxI.times(ALPHA / MAPxI.normF());
+//			point  = left.plus(right);
+//			
+//		} while (closeToOldPoint(oldPoint.getArray(), point.getArray()));
+//		return point;
 		
 	}
 	// 计算方差

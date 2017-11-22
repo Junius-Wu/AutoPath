@@ -228,16 +228,21 @@ public class TranCoverUtil {
 		for(Transition tran : nextTrans) {
 			State targetState = findStateByID.get(tran.getTarget());
 			sum += points[targetState.getId()];
+
 			rates.add( points[targetState.getId()]);
 		}
+		
 		for(int i = 0; i < rates.size(); i++) {
-			if (rates.get(i) / sum == 1.0 && rates.size() >= 2) {
-				System.out.println(3);
-			}
 			rates.set(i, rates.get(i) / sum);
 		}
 		int resIndex = DataHelper.randomPoints(rates);
-		return nextTrans.get(resIndex);
+//		// 把选中的那个重要度变成0
+//		Transition nextTran = nextTrans.get(resIndex);
+//		int targetId = findStateByID.get(nextTran.getTarget()).getId();
+//		points[targetId] = 0;
+		
+		
+ 		return nextTrans.get(resIndex);
 	}
 
 
