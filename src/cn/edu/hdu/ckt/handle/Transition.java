@@ -2,7 +2,7 @@ package cn.edu.hdu.ckt.handle;
 
 import java.util.ArrayList;
 
-public class Transition {
+public class Transition implements Comparable<Transition>{
 	private String name;//后期添加迁移名称/////
 	private int id;//后来添加//////
 	private String in;//////
@@ -15,7 +15,11 @@ public class Transition {
 	private DBM_element[][] constraintDBM;//迁移上的时钟约束集合
 	private ArrayList<String> types;
 	private ArrayList<String> typeIds;
-
+	@Override
+	public int compareTo(Transition o) {
+		return this.id - o.id;
+	
+	}
 	
 	public String getIn() {
 		return in;
@@ -104,6 +108,7 @@ public class Transition {
 	public void setConstraintDBM(DBM_element[][] constraintDBM) {
 		this.constraintDBM = constraintDBM;
 	}
+
 	
 	
 }

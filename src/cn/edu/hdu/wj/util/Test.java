@@ -27,7 +27,7 @@ public class Test {
 		Automatic automatic = GetAutomatic.getAutomatic("UAVForXStreamGaoDuV9.xml");
 		
 		// 迁移覆盖的所有路径
-		paths = GeneratePath.getFormatPathFromAutomatic(copy(automatic), 200);
+		paths = GeneratePath.getFormatPathFromAutomatic(copy(automatic), 1);
 
 //		
 		System.out.println("Min =" + min);
